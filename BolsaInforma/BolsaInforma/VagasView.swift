@@ -23,7 +23,7 @@ struct VagasView: View {
             
             }
         }
-        .tint(Color("Tint"))
+
         
         
         

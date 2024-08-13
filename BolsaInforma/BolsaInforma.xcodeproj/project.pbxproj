@@ -17,6 +17,9 @@
 		22006A252C66A6360054E57F /* VagasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A242C66A6360054E57F /* VagasView.swift */; };
 		22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A262C66A8C10054E57F /* EstagiosView.swift */; };
 		22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A282C66A9FF0054E57F /* SalvosView.swift */; };
+		22689BFC2C6BCECD0014C28C /* VagaBolsaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689BFB2C6BCECD0014C28C /* VagaBolsaView.swift */; };
+		22689BFE2C6BCF620014C28C /* CardTipoDaBolsaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689BFD2C6BCF620014C28C /* CardTipoDaBolsaView.swift */; };
+		22689C002C6BDB3D0014C28C /* VariaveisModularizacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22689BFF2C6BDB3D0014C28C /* VariaveisModularizacao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		22006A242C66A6360054E57F /* VagasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagasView.swift; sourceTree = "<group>"; };
 		22006A262C66A8C10054E57F /* EstagiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstagiosView.swift; sourceTree = "<group>"; };
 		22006A282C66A9FF0054E57F /* SalvosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvosView.swift; sourceTree = "<group>"; };
+		22689BFB2C6BCECD0014C28C /* VagaBolsaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagaBolsaView.swift; sourceTree = "<group>"; };
+		22689BFD2C6BCF620014C28C /* CardTipoDaBolsaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTipoDaBolsaView.swift; sourceTree = "<group>"; };
+		22689BFF2C6BDB3D0014C28C /* VariaveisModularizacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariaveisModularizacao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,9 @@
 				22006A242C66A6360054E57F /* VagasView.swift */,
 				22006A282C66A9FF0054E57F /* SalvosView.swift */,
 				22006A262C66A8C10054E57F /* EstagiosView.swift */,
+				22689BFB2C6BCECD0014C28C /* VagaBolsaView.swift */,
+				22689BFD2C6BCF620014C28C /* CardTipoDaBolsaView.swift */,
+				22689BFF2C6BDB3D0014C28C /* VariaveisModularizacao.swift */,
 				220069FC2C66A4780054E57F /* Assets.xcassets */,
 				220069FE2C66A4780054E57F /* Preview Content */,
 			);
@@ -269,6 +278,9 @@
 				220069FB2C66A4770054E57F /* ContentView.swift in Sources */,
 				220069F92C66A4770054E57F /* BolsaInformaApp.swift in Sources */,
 				22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */,
+				22689BFC2C6BCECD0014C28C /* VagaBolsaView.swift in Sources */,
+				22689C002C6BDB3D0014C28C /* VariaveisModularizacao.swift in Sources */,
+				22689BFE2C6BCF620014C28C /* CardTipoDaBolsaView.swift in Sources */,
 				22006A252C66A6360054E57F /* VagasView.swift in Sources */,
 				22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */,
 			);

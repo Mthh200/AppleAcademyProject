@@ -24,7 +24,7 @@ struct ContentView: View {
                     Label("Salvos", systemImage: "bookmark")
                 }
         }
-        .tint(Color("Tint"))
+        .tint(Color(.tinta))
     }
 }
 #Preview {
