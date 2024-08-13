@@ -10,22 +10,7 @@ import SwiftUI
 struct VagasView: View {
     var body: some View {
         
-        NavigationStack{
-            VStack{
-                
-            }
-            
-            .navigationTitle("Vagas")
-            .toolbar{
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
-                    Image(systemName: "square.and.arrow.up")
-                })
-            
-            }
-        }
-        .tint(Color("Tint"))
-        
-        
+        NavigationView(nome: "Teste")
         
     }
 }
