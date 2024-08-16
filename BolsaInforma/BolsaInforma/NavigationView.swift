@@ -25,7 +25,7 @@ struct NavigationView: View {
             
             }
         }
-        .tint(Color("Tint"))
+        .tint(Color(.tinta))
         
     }
     
