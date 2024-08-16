@@ -9,9 +9,7 @@ import SwiftUI
 
 struct VagasView: View {
     var body: some View {
-        
         NavigationView(nome: "Teste")
-        
     }
 }
 
