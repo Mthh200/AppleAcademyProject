@@ -17,6 +17,8 @@
 		22006A252C66A6360054E57F /* VagasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A242C66A6360054E57F /* VagasView.swift */; };
 		22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A262C66A8C10054E57F /* EstagiosView.swift */; };
 		22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A282C66A9FF0054E57F /* SalvosView.swift */; };
+		22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */; };
+		22B03D132C6BD654003C4FE3 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B03D122C6BD654003C4FE3 /* NavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		22006A242C66A6360054E57F /* VagasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagasView.swift; sourceTree = "<group>"; };
 		22006A262C66A8C10054E57F /* EstagiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstagiosView.swift; sourceTree = "<group>"; };
 		22006A282C66A9FF0054E57F /* SalvosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvosView.swift; sourceTree = "<group>"; };
+		22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		22B03D122C6BD654003C4FE3 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				22006A242C66A6360054E57F /* VagasView.swift */,
 				22006A282C66A9FF0054E57F /* SalvosView.swift */,
 				22006A262C66A8C10054E57F /* EstagiosView.swift */,
+				22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */,
+				22B03D122C6BD654003C4FE3 /* NavigationView.swift */,
 				220069FC2C66A4780054E57F /* Assets.xcassets */,
 				220069FE2C66A4780054E57F /* Preview Content */,
 			);
@@ -266,9 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22B03D132C6BD654003C4FE3 /* NavigationView.swift in Sources */,
 				220069FB2C66A4770054E57F /* ContentView.swift in Sources */,
 				220069F92C66A4770054E57F /* BolsaInformaApp.swift in Sources */,
 				22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */,
+				22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */,
 				22006A252C66A6360054E57F /* VagasView.swift in Sources */,
 				22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */,
 			);
