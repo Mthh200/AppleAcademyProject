@@ -31,17 +31,19 @@ struct FilterView: View {
                 HStack{
                 
                     ForEach(filterButtons){ button in
-                        Button{
-//                            for element in filterButtons {
-//                                element.isSelected = true
+//                        FilterButtonView(filterButton: button)
+//                            .onTapGesture {
+//                                for element in filterButtons {
+//                                    element.setIsSelect(isSelected: false)
+//                                }
+//                                button.setIsSelect(isSelected: true)
+//
 //                            }
-//                            button.isSelected = true
-                            filterButtons = filterButtons.map {
-                                var r = $0
-                                r.isSelected = false
-                                return r
+                        Button{
+                            for element in filterButtons {
+                                element.setIsSelect(isSelected: false)
                             }
-                            print(filterButtons)
+                            button.setIsSelect(isSelected: true)
                         }
                         label: {
                             FilterButtonView(filterButton: button)
@@ -52,7 +54,7 @@ struct FilterView: View {
                 }
                 
             }
-            .frame(height: 53)
+            .frame(height: 60)
         }
 
         

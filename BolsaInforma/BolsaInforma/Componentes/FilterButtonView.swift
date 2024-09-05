@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FilterButtonView: View {
     
-    @State var filterButton: FilterButton
+    @ObservedObject var filterButton: FilterButton
     
     func getRectColor(isSelected: Bool) -> Color {
         if (isSelected) {
@@ -46,7 +46,7 @@ struct FilterButtonView: View {
                 
                     .aspectRatio(contentMode: .fill)
                 Text(filterButton.text)
-                    .font(.system(size: 11))
+                    .font(.system(size: 16))
                     .fontWeight(.semibold)
                     .foregroundStyle(textColor)
                     .frame(width: 60, height: 21)

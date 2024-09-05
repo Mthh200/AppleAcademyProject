@@ -6,10 +6,20 @@
 //
 
 import SwiftUI
+import Combine
 
-struct FilterButton: Identifiable {
+class FilterButton: Identifiable, ObservableObject {
     
+    let id = UUID()
     var text: String
-    @State var isSelected: Bool = false
-    var id = UUID()
+    @Published var isSelected: Bool = false
+    
+    init(text: String, isSelected: Bool = false) {
+            self.text = text
+            self.isSelected = isSelected
+        }
+    
+    func setIsSelect(isSelected:Bool) -> Void {
+        self.isSelected = isSelected
+    }
 }
