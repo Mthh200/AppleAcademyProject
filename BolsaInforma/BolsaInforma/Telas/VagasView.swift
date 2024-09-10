@@ -22,11 +22,19 @@ struct VagasView: View {
                 Color(.fundo)
                 ScrollView{
                     VStack {
-                        FilterView()
+                        FilterView(filterButtons: [
+                            FilterButton(text: "Tudo", isSelected: true),
+                            FilterButton(text: "Pesquisa"),
+                            FilterButton(text: "Extensão"),
+                            FilterButton(text: "Área de Atuação"),
+                            FilterButton(text: "Escolaridade")
+                        ]
+)
                         ForEach(cards){ card in
                             CardView(card: card)
                         }
                     }
+                }
                     .padding()
                     
                     
@@ -45,7 +53,7 @@ struct VagasView: View {
         }
             
     }
-}
+
 
 #Preview {
     VagasView()
