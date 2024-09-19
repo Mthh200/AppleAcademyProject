@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220069F92C66A4770054E57F /* BolsaInformaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220069F82C66A4770054E57F /* BolsaInformaApp.swift */; };
+		220069FB2C66A4770054E57F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220069FA2C66A4770054E57F /* ContentView.swift */; };
+		220069FD2C66A4780054E57F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220069FC2C66A4780054E57F /* Assets.xcassets */; };
+		22006A002C66A4780054E57F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220069FF2C66A4780054E57F /* Preview Assets.xcassets */; };
+		22006A0A2C66A4780054E57F /* BolsaInformaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A092C66A4780054E57F /* BolsaInformaTests.swift */; };
+		22006A142C66A4780054E57F /* BolsaInformaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A132C66A4780054E57F /* BolsaInformaUITests.swift */; };
+		22006A162C66A4780054E57F /* BolsaInformaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A152C66A4780054E57F /* BolsaInformaUITestsLaunchTests.swift */; };
+		22006A252C66A6360054E57F /* VagasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A242C66A6360054E57F /* VagasView.swift */; };
+		22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A262C66A8C10054E57F /* EstagiosView.swift */; };
+		22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A282C66A9FF0054E57F /* SalvosView.swift */; };
+		223C05872C8A036B00501299 /* VagaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223C05862C8A036B00501299 /* VagaView.swift */; };
+		225D864A2C6FCCCF00452398 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D86492C6FCCCF00452398 /* CardInfoView.swift */; };
+		225D864C2C6FCE9E00452398 /* CardAuxilioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */; };
+		225D864E2C6FDDD000452398 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D864D2C6FDDD000452398 /* CardView.swift */; };
+		226BB1992C94AD0400E24719 /* SectionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BB1982C94AD0400E24719 /* SectionButtonView.swift */; };
+		226BB19B2C94D21600E24719 /* SectionButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BB19A2C94D21600E24719 /* SectionButton2.swift */; };
+		227581102C8235130058E400 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275810F2C8235130058E400 /* FilterButtonView.swift */; };
+		227581122C823B150058E400 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227581112C823B150058E400 /* FilterView.swift */; };
+		227581142C8240780058E400 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227581132C8240780058E400 /* FilterButton.swift */; };
+		227BEAE12C9A0DA90068AFB0 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE02C9A0DA90068AFB0 /* Dados.swift */; };
+		227BEAE32C9A0E010068AFB0 /* Texto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE22C9A0E010068AFB0 /* Texto.swift */; };
+		227BEAE52C9A0E470068AFB0 /* Textos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE42C9A0E470068AFB0 /* Textos.swift */; };
+		22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */; };
+		22DD85172C777BCD008726F3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD85162C777BCD008726F3 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22006A062C66A4780054E57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220069ED2C66A4770054E57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220069F42C66A4770054E57F;
+			remoteInfo = BolsaInforma;
+		};
+		22006A102C66A4780054E57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 220069ED2C66A4770054E57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 220069F42C66A4770054E57F;
+			remoteInfo = BolsaInforma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		220069F52C66A4770054E57F /* BolsaInforma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolsaInforma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220069F82C66A4770054E57F /* BolsaInformaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolsaInformaApp.swift; sourceTree = "<group>"; };
+		220069FA2C66A4770054E57F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		220069FC2C66A4780054E57F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220069FF2C66A4780054E57F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22006A052C66A4780054E57F /* BolsaInformaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolsaInformaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22006A092C66A4780054E57F /* BolsaInformaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolsaInformaTests.swift; sourceTree = "<group>"; };
+		22006A0F2C66A4780054E57F /* BolsaInformaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BolsaInformaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22006A132C66A4780054E57F /* BolsaInformaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolsaInformaUITests.swift; sourceTree = "<group>"; };
+		22006A152C66A4780054E57F /* BolsaInformaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BolsaInformaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		22006A242C66A6360054E57F /* VagasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagasView.swift; sourceTree = "<group>"; };
+		22006A262C66A8C10054E57F /* EstagiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstagiosView.swift; sourceTree = "<group>"; };
+		22006A282C66A9FF0054E57F /* SalvosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvosView.swift; sourceTree = "<group>"; };
+		223C05862C8A036B00501299 /* VagaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagaView.swift; sourceTree = "<group>"; };
+		225D86492C6FCCCF00452398 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
+		225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAuxilioView.swift; sourceTree = "<group>"; };
+		225D864D2C6FDDD000452398 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		226BB1982C94AD0400E24719 /* SectionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionButtonView.swift; sourceTree = "<group>"; };
+		226BB19A2C94D21600E24719 /* SectionButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionButton2.swift; sourceTree = "<group>"; };
+		2275810F2C8235130058E400 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
+		227581112C823B150058E400 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		227581132C8240780058E400 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		227BEAE02C9A0DA90068AFB0 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		227BEAE22C9A0E010068AFB0 /* Texto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texto.swift; sourceTree = "<group>"; };
+		227BEAE42C9A0E470068AFB0 /* Textos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textos.swift; sourceTree = "<group>"; };
+		22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		22DD85162C777BCD008726F3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220069F22C66A4770054E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A022C66A4780054E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A0C2C66A4780054E57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220069EC2C66A4770054E57F = {
+			isa = PBXGroup;
+			children = (
+				220069F72C66A4770054E57F /* BolsaInforma */,
+				22006A082C66A4780054E57F /* BolsaInformaTests */,
+				22006A122C66A4780054E57F /* BolsaInformaUITests */,
+				220069F62C66A4770054E57F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220069F62C66A4770054E57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220069F52C66A4770054E57F /* BolsaInforma.app */,
+				22006A052C66A4780054E57F /* BolsaInformaTests.xctest */,
+				22006A0F2C66A4780054E57F /* BolsaInformaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220069F72C66A4770054E57F /* BolsaInforma */ = {
+			isa = PBXGroup;
+			children = (
+				220069F82C66A4770054E57F /* BolsaInformaApp.swift */,
+				220069FA2C66A4770054E57F /* ContentView.swift */,
+				225D864F2C6FE84C00452398 /* Telas */,
+				225D86502C6FE87900452398 /* Componentes */,
+				227BEADF2C9A0D710068AFB0 /* Dados */,
+				220069FC2C66A4780054E57F /* Assets.xcassets */,
+				220069FE2C66A4780054E57F /* Preview Content */,
+			);
+			path = BolsaInforma;
+			sourceTree = "<group>";
+		};
+		220069FE2C66A4780054E57F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				220069FF2C66A4780054E57F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22006A082C66A4780054E57F /* BolsaInformaTests */ = {
+			isa = PBXGroup;
+			children = (
+				22006A092C66A4780054E57F /* BolsaInformaTests.swift */,
+			);
+			path = BolsaInformaTests;
+			sourceTree = "<group>";
+		};
+		22006A122C66A4780054E57F /* BolsaInformaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22006A132C66A4780054E57F /* BolsaInformaUITests.swift */,
+				22006A152C66A4780054E57F /* BolsaInformaUITestsLaunchTests.swift */,
+			);
+			path = BolsaInformaUITests;
+			sourceTree = "<group>";
+		};
+		225D864F2C6FE84C00452398 /* Telas */ = {
+			isa = PBXGroup;
+			children = (
+				22006A242C66A6360054E57F /* VagasView.swift */,
+				22006A262C66A8C10054E57F /* EstagiosView.swift */,
+				22006A282C66A9FF0054E57F /* SalvosView.swift */,
+				223C05862C8A036B00501299 /* VagaView.swift */,
+			);
+			path = Telas;
+			sourceTree = "<group>";
+		};
+		225D86502C6FE87900452398 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */,
+				225D86492C6FCCCF00452398 /* CardInfoView.swift */,
+				225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */,
+				225D864D2C6FDDD000452398 /* CardView.swift */,
+				22DD85162C777BCD008726F3 /* Card.swift */,
+				227581112C823B150058E400 /* FilterView.swift */,
+				2275810F2C8235130058E400 /* FilterButtonView.swift */,
+				227581132C8240780058E400 /* FilterButton.swift */,
+				226BB1982C94AD0400E24719 /* SectionButtonView.swift */,
+				226BB19A2C94D21600E24719 /* SectionButton2.swift */,
+				227BEAE22C9A0E010068AFB0 /* Texto.swift */,
+				227BEAE42C9A0E470068AFB0 /* Textos.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
+		227BEADF2C9A0D710068AFB0 /* Dados */ = {
+			isa = PBXGroup;
+			children = (
+				227BEAE02C9A0DA90068AFB0 /* Dados.swift */,
+			);
+			path = Dados;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220069F42C66A4770054E57F /* BolsaInforma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22006A192C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInforma" */;
+			buildPhases = (
+				220069F12C66A4770054E57F /* Sources */,
+				220069F22C66A4770054E57F /* Frameworks */,
+				220069F32C66A4770054E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BolsaInforma;
+			productName = BolsaInforma;
+			productReference = 220069F52C66A4770054E57F /* BolsaInforma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22006A042C66A4780054E57F /* BolsaInformaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22006A1C2C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInformaTests" */;
+			buildPhases = (
+				22006A012C66A4780054E57F /* Sources */,
+				22006A022C66A4780054E57F /* Frameworks */,
+				22006A032C66A4780054E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22006A072C66A4780054E57F /* PBXTargetDependency */,
+			);
+			name = BolsaInformaTests;
+			productName = BolsaInformaTests;
+			productReference = 22006A052C66A4780054E57F /* BolsaInformaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22006A0E2C66A4780054E57F /* BolsaInformaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22006A1F2C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInformaUITests" */;
+			buildPhases = (
+				22006A0B2C66A4780054E57F /* Sources */,
+				22006A0C2C66A4780054E57F /* Frameworks */,
+				22006A0D2C66A4780054E57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22006A112C66A4780054E57F /* PBXTargetDependency */,
+			);
+			name = BolsaInformaUITests;
+			productName = BolsaInformaUITests;
+			productReference = 22006A0F2C66A4780054E57F /* BolsaInformaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		220069ED2C66A4770054E57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					220069F42C66A4770054E57F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					22006A042C66A4780054E57F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 220069F42C66A4770054E57F;
+					};
+					22006A0E2C66A4780054E57F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 220069F42C66A4770054E57F;
+					};
+				};
+			};
+			buildConfigurationList = 220069F02C66A4770054E57F /* Build configuration list for PBXProject "BolsaInforma" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 220069EC2C66A4770054E57F;
+			productRefGroup = 220069F62C66A4770054E57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220069F42C66A4770054E57F /* BolsaInforma */,
+				22006A042C66A4780054E57F /* BolsaInformaTests */,
+				22006A0E2C66A4780054E57F /* BolsaInformaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220069F32C66A4770054E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22006A002C66A4780054E57F /* Preview Assets.xcassets in Resources */,
+				220069FD2C66A4780054E57F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A032C66A4780054E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A0D2C66A4780054E57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220069F12C66A4770054E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220069FB2C66A4770054E57F /* ContentView.swift in Sources */,
+				220069F92C66A4770054E57F /* BolsaInformaApp.swift in Sources */,
+				226BB1992C94AD0400E24719 /* SectionButtonView.swift in Sources */,
+				225D864A2C6FCCCF00452398 /* CardInfoView.swift in Sources */,
+				223C05872C8A036B00501299 /* VagaView.swift in Sources */,
+				227581102C8235130058E400 /* FilterButtonView.swift in Sources */,
+				227581122C823B150058E400 /* FilterView.swift in Sources */,
+				226BB19B2C94D21600E24719 /* SectionButton2.swift in Sources */,
+				225D864E2C6FDDD000452398 /* CardView.swift in Sources */,
+				22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */,
+				227BEAE52C9A0E470068AFB0 /* Textos.swift in Sources */,
+				22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */,
+				22006A252C66A6360054E57F /* VagasView.swift in Sources */,
+				227BEAE32C9A0E010068AFB0 /* Texto.swift in Sources */,
+				22DD85172C777BCD008726F3 /* Card.swift in Sources */,
+				225D864C2C6FCE9E00452398 /* CardAuxilioView.swift in Sources */,
+				227BEAE12C9A0DA90068AFB0 /* Dados.swift in Sources */,
+				227581142C8240780058E400 /* FilterButton.swift in Sources */,
+				22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A012C66A4780054E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22006A0A2C66A4780054E57F /* BolsaInformaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22006A0B2C66A4780054E57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22006A142C66A4780054E57F /* BolsaInformaUITests.swift in Sources */,
+				22006A162C66A4780054E57F /* BolsaInformaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22006A072C66A4780054E57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220069F42C66A4770054E57F /* BolsaInforma */;
+			targetProxy = 22006A062C66A4780054E57F /* PBXContainerItemProxy */;
+		};
+		22006A112C66A4780054E57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 220069F42C66A4770054E57F /* BolsaInforma */;
+			targetProxy = 22006A102C66A4780054E57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22006A172C66A4780054E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22006A182C66A4780054E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22006A1A2C66A4780054E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BolsaInforma/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BX7W7QF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInforma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22006A1B2C66A4780054E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BolsaInforma/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BX7W7QF5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInforma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22006A1D2C66A4780054E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInformaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BolsaInforma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BolsaInforma";
+			};
+			name = Debug;
+		};
+		22006A1E2C66A4780054E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInformaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BolsaInforma.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BolsaInforma";
+			};
+			name = Release;
+		};
+		22006A202C66A4780054E57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInformaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BolsaInforma;
+			};
+			name = Debug;
+		};
+		22006A212C66A4780054E57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Equipe6.BolsaInformaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BolsaInforma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220069F02C66A4770054E57F /* Build configuration list for PBXProject "BolsaInforma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22006A172C66A4780054E57F /* Debug */,
+				22006A182C66A4780054E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22006A192C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInforma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22006A1A2C66A4780054E57F /* Debug */,
+				22006A1B2C66A4780054E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22006A1C2C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInformaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22006A1D2C66A4780054E57F /* Debug */,
+				22006A1E2C66A4780054E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22006A1F2C66A4780054E57F /* Build configuration list for PBXNativeTarget "BolsaInformaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22006A202C66A4780054E57F /* Debug */,
+				22006A212C66A4780054E57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 220069ED2C66A4770054E57F /* Project object */;
+}
