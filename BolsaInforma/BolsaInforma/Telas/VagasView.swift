@@ -9,7 +9,7 @@ import SwiftUI
 
 struct VagasView: View {
     
-    let dados = Dados().dados
+    let dados = Dados()
     
     @State var searchText: String = ""
     
@@ -70,14 +70,13 @@ struct VagasView: View {
                                 Spacer()
                                 FilterView(filterButtons: [
                                     FilterButton(text: "Tudo", isSelected: true),
-                                    FilterButton(text: "Pesquisa"),
-                                    FilterButton(text: "Extensão"),
+                                    FilterButton(text: "Tipo"),
                                     FilterButton(text: "Área de Atuação"),
                                     FilterButton(text: "Escolaridade")
                                 ])
                                 
-                                ForEach(filteredBolsas){ card in
-                                    if let textos = dados[card.arg1] {
+                                ForEach(filteredBolsas) { card in
+                                    if let textos = dados.bolsas[card.arg1] {
                                         NavigationLink(destination: VagaView(textos: textos, title: card.arg1)) {
                                             CardView(card: card)
                                         }
@@ -99,8 +98,12 @@ struct VagasView: View {
                             VStack {
                                 Spacer()
                                 
-                                ForEach(filteredAuxilios){ card in
-                                    CardAuxilioView(card: card)
+                                ForEach(filteredAuxilios) { card in
+                                    if let textos = dados.auxilios[card.arg1] {
+                                        NavigationLink(destination: VagaView(textos: textos, title: card.arg1)) {
+                                            CardAuxilioView(card: card)
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -115,7 +118,7 @@ struct VagasView: View {
             .navigationTitle("Vagas")
             .searchable(text: $searchText)
             .toolbar{
-                ToolbarItem(){
+                ToolbarItem() {
                     Button {} label: {
                         Image(systemName: "link")
                     }

@@ -25,7 +25,7 @@ struct VagaView: View {
                         }
                     }
                 }
-                .padding()
+                .padding([.horizontal, .top])
             }
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
