@@ -19,13 +19,11 @@ struct VagasView: View {
         Card(arg1: "PIBIC", arg2: "Pesquisa", arg3: "Até 12/12 às 12h", isSalvo: false)
     ]
     var cardsAuxilios = [
-        Card(arg1: "Auxílio Óculos", arg2: "", arg3: "Até 12/12 às 12h"),
-        Card(arg1: "Auxílio Transporte", arg2: "", arg3: "Até 12/12 às 12h"),
-        Card(arg1: "Auxílio Formação", arg2: "", arg3: "Até 12/12 às 12h"),
-        Card(arg1: "Auxílio Moradia", arg2: "", arg3: "Até 12/12 às 12h")
+        Card(arg1: "Auxílio Óculos", arg2: "", arg3: "Até 12/12 às 12h", isSalvo: true),
+        Card(arg1: "Auxílio Transporte", arg2: "", arg3: "Até 12/12 às 12h", isSalvo: false),
+        Card(arg1: "Auxílio Formação", arg2: "", arg3: "Até 12/12 às 12h", isSalvo: false),
+        Card(arg1: "Auxílio Moradia", arg2: "", arg3: "Até 12/12 às 12h", isSalvo: false)
     ]
-    
-    @State var selectionado: Int = 1
     
     var filteredBolsas: [Card] {
         cardsBolsas.filter { card in
@@ -38,6 +36,8 @@ struct VagasView: View {
             searchText.isEmpty || card.arg1.localizedCaseInsensitiveContains(searchText)
         }
     }
+    
+    @State var selectionado: Int = 1
     
     var body: some View {
         NavigationStack {
@@ -76,13 +76,15 @@ struct VagasView: View {
                                     FilterButton(text: "Escolaridade")
                                 ])
                                 
-                                ForEach(filteredBolsas) { card in
+                                ForEach(filteredBolsas){ card in
                                     if let textos = dados[card.arg1] {
                                         NavigationLink(destination: VagaView(textos: textos, title: card.arg1)) {
                                             CardView(card: card)
                                         }
                                     }
                                 }
+                                
+                                
                             }
                             .padding(.horizontal)
                         }
@@ -113,7 +115,7 @@ struct VagasView: View {
             .navigationTitle("Vagas")
             .searchable(text: $searchText)
             .toolbar{
-                ToolbarItem() {
+                ToolbarItem(){
                     Button {} label: {
                         Image(systemName: "link")
                     }

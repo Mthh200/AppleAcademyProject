@@ -10,7 +10,7 @@ import SwiftUI
 struct EstagiosView: View {
     
     @State var searchText = ""
-    var cards = [
+    var cardsEstagios = [
         Card(arg1: "Aprenda Certo", arg2: "Computação", arg3: "Nível Superior e Médio", isSalvo: true),
         Card(arg1: "Administração de Obras", arg2: "Construção Civil", arg3: "Nível Superior e Médio", isSalvo: false)
     ]
@@ -27,7 +27,7 @@ struct EstagiosView: View {
                             FilterButton(text: "Escolaridade")
                         ]
 )
-                        ForEach(cards){ card in
+                        ForEach(cardsEstagios){ card in
                             CardView(card: card)
                         }
                     }
