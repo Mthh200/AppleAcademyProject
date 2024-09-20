@@ -27,6 +27,18 @@ struct VagasView: View {
     
     @State var selectionado: Int = 1
     
+    var filteredBolsas: [Card] {
+        cardsBolsas.filter { card in
+            searchText.isEmpty || card.arg1.localizedCaseInsensitiveContains(searchText)
+        }
+    }
+        
+    var filteredAuxilios: [Card] {
+        cardsAuxilios.filter { card in
+            searchText.isEmpty || card.arg1.localizedCaseInsensitiveContains(searchText)
+        }
+    }
+    
     var body: some View {
         NavigationStack {
             
@@ -64,15 +76,13 @@ struct VagasView: View {
                                     FilterButton(text: "Escolaridade")
                                 ])
                                 
-                                ForEach(cardsBolsas){ card in
+                                ForEach(filteredBolsas) { card in
                                     if let textos = dados[card.arg1] {
                                         NavigationLink(destination: VagaView(textos: textos, title: card.arg1)) {
                                             CardView(card: card)
                                         }
                                     }
                                 }
-                                
-                                
                             }
                             .padding(.horizontal)
                         }
@@ -87,14 +97,13 @@ struct VagasView: View {
                             VStack {
                                 Spacer()
                                 
-                                ForEach(cardsAuxilios){ card in
+                                ForEach(filteredAuxilios){ card in
                                     CardAuxilioView(card: card)
                                 }
                             }
                         }
                         .padding(EdgeInsets(top: 0, leading: 16, bottom: 16, trailing: 16))
                     }
-                    .padding(EdgeInsets(top: 0,  leading:16, bottom: 0, trailing: 16))
                     .border(Color(.background), width: 0.5)
                 default:
                     EmptyView()
@@ -104,7 +113,7 @@ struct VagasView: View {
             .navigationTitle("Vagas")
             .searchable(text: $searchText)
             .toolbar{
-                ToolbarItem(){
+                ToolbarItem() {
                     Button {} label: {
                         Image(systemName: "link")
                     }

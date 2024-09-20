@@ -32,7 +32,7 @@ struct Dados {
                 Texto(texto: "Tem por finalidade a oferta de vagas para o curso de extensão IOS foundation, na modalidade presencial.")
             ]),
             Textos(nome: "Requisitos", textos: [
-                Texto(texto: "Poderão candidatar-se para as vagas constantes no presente Edital:\n- Jovens e Adultos com interesse em aprender sobre desenvolvimento para plataformas Apple.\n- Pessoas que já tenham conhecimento básico de informatiinformática e programação.")
+                Texto(texto: "Poderão candidatar-se para as vagas constantes no presente Edital:\n- Jovens e Adultos com interesse em aprender sobre desenvolvimento para plataformas Apple.\n- Pessoas que já tenham conhecimento básico de informática e programação.")
             ]),
             Textos(nome: "Informações adicionais", textos: [
                 Texto(texto: "São objetivos específicos do curso: Formação introdutória de estudantes em desenvolvimento de aplicativos para plataformas Apple com Swift."),
