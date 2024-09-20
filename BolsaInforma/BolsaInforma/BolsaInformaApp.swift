@@ -13,5 +13,6 @@ struct BolsaInformaApp: App {
         WindowGroup {
             ContentView()
         }
+        
     }
 }

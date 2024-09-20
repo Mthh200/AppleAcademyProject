@@ -7,43 +7,38 @@
 
 import SwiftUI
 
-struct FilterButtonView: View {
+struct SectionButtonView: View {
     
     @ObservedObject var filterButton: FilterButton
 //teste de merge Matheus
     
     var body: some View {
-        @State var textColor = getTextColor(isSelected: filterButton.isSelected)
-        @State var rectColor = getRectColor(isSelected: filterButton.isSelected)
-      
+        
             ZStack{
                 if (filterButton.isSelected){
                     RoundedRectangle(cornerRadius: 20)
                         .fill(Color.tinta)
-                        .frame(height: 27)
-                    
+                        .frame(width: 90, height: 30)
                         .aspectRatio(contentMode: .fill)
                     Text(filterButton.text)
                         .font(.system(size: 14))
-                        .fontWeight(.medium)
+                        .fontWeight(.semibold)
                         .foregroundStyle(Color.white)
-                        .frame(height: 27)
-                        .padding()
+                        .frame(width: 90, height: 30)
                     
                 } else{
                     RoundedRectangle(cornerRadius: 20)
                         .fill(Color.white)
-                        .strokeBorder(Color.tinta)
-                        .frame(height: 27)
-                    
+                        .strokeBorder(Color(.tinta))
+                        .frame(width: 90, height: 30)
                         .aspectRatio(contentMode: .fill)
                     Text(filterButton.text)
                         .font(.system(size: 14))
                         .fontWeight(.medium)
                         .foregroundStyle(Color.black)
-                        .frame(height: 27)
-                        .padding(.horizontal)
+                        .frame(width: 90, height: 30)
                 }
+                
                 
         }
         
@@ -63,14 +58,8 @@ struct FilterButtonView: View {
             Color.black
         }
     }
-//    func getFontWeight(isSelected: Bool) {
-//        if (isSelected){
-//
-//        }
-//    }
-
 }
 
 #Preview {
-    FilterButtonView(filterButton: FilterButton(text: "Filtro", isSelected: false))
+    SectionButtonView(filterButton: FilterButton(text: "Bolsas", isSelected: false))
 }

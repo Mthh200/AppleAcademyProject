@@ -17,12 +17,18 @@
 		22006A252C66A6360054E57F /* VagasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A242C66A6360054E57F /* VagasView.swift */; };
 		22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A262C66A8C10054E57F /* EstagiosView.swift */; };
 		22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22006A282C66A9FF0054E57F /* SalvosView.swift */; };
+		222420CE2C9DEAF900069BE1 /* SwiftUITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222420CD2C9DEAF900069BE1 /* SwiftUITestView.swift */; };
+		223C05872C8A036B00501299 /* VagaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223C05862C8A036B00501299 /* VagaView.swift */; };
 		225D864A2C6FCCCF00452398 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D86492C6FCCCF00452398 /* CardInfoView.swift */; };
-		225D864C2C6FCE9E00452398 /* CardIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D864B2C6FCE9E00452398 /* CardIconView.swift */; };
+		225D864C2C6FCE9E00452398 /* CardAuxilioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */; };
 		225D864E2C6FDDD000452398 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D864D2C6FDDD000452398 /* CardView.swift */; };
+		226BB1992C94AD0400E24719 /* SectionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226BB1982C94AD0400E24719 /* SectionButtonView.swift */; };
 		227581102C8235130058E400 /* FilterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2275810F2C8235130058E400 /* FilterButtonView.swift */; };
 		227581122C823B150058E400 /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227581112C823B150058E400 /* FilterView.swift */; };
 		227581142C8240780058E400 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227581132C8240780058E400 /* FilterButton.swift */; };
+		227BEAE12C9A0DA90068AFB0 /* Dados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE02C9A0DA90068AFB0 /* Dados.swift */; };
+		227BEAE32C9A0E010068AFB0 /* Texto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE22C9A0E010068AFB0 /* Texto.swift */; };
+		227BEAE52C9A0E470068AFB0 /* Textos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227BEAE42C9A0E470068AFB0 /* Textos.swift */; };
 		22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */; };
 		22DD85172C777BCD008726F3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DD85162C777BCD008726F3 /* Card.swift */; };
 /* End PBXBuildFile section */
@@ -58,12 +64,18 @@
 		22006A242C66A6360054E57F /* VagasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagasView.swift; sourceTree = "<group>"; };
 		22006A262C66A8C10054E57F /* EstagiosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstagiosView.swift; sourceTree = "<group>"; };
 		22006A282C66A9FF0054E57F /* SalvosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalvosView.swift; sourceTree = "<group>"; };
+		222420CD2C9DEAF900069BE1 /* SwiftUITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITestView.swift; sourceTree = "<group>"; };
+		223C05862C8A036B00501299 /* VagaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VagaView.swift; sourceTree = "<group>"; };
 		225D86492C6FCCCF00452398 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
-		225D864B2C6FCE9E00452398 /* CardIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIconView.swift; sourceTree = "<group>"; };
+		225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAuxilioView.swift; sourceTree = "<group>"; };
 		225D864D2C6FDDD000452398 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		226BB1982C94AD0400E24719 /* SectionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionButtonView.swift; sourceTree = "<group>"; };
 		2275810F2C8235130058E400 /* FilterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButtonView.swift; sourceTree = "<group>"; };
 		227581112C823B150058E400 /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		227581132C8240780058E400 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		227BEAE02C9A0DA90068AFB0 /* Dados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dados.swift; sourceTree = "<group>"; };
+		227BEAE22C9A0E010068AFB0 /* Texto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Texto.swift; sourceTree = "<group>"; };
+		227BEAE42C9A0E470068AFB0 /* Textos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Textos.swift; sourceTree = "<group>"; };
 		22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		22DD85162C777BCD008726F3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -120,6 +132,7 @@
 				220069FA2C66A4770054E57F /* ContentView.swift */,
 				225D864F2C6FE84C00452398 /* Telas */,
 				225D86502C6FE87900452398 /* Componentes */,
+				227BEADF2C9A0D710068AFB0 /* Dados */,
 				220069FC2C66A4780054E57F /* Assets.xcassets */,
 				220069FE2C66A4780054E57F /* Preview Content */,
 			);
@@ -157,6 +170,8 @@
 				22006A242C66A6360054E57F /* VagasView.swift */,
 				22006A262C66A8C10054E57F /* EstagiosView.swift */,
 				22006A282C66A9FF0054E57F /* SalvosView.swift */,
+				223C05862C8A036B00501299 /* VagaView.swift */,
+				222420CD2C9DEAF900069BE1 /* SwiftUITestView.swift */,
 			);
 			path = Telas;
 			sourceTree = "<group>";
@@ -166,14 +181,25 @@
 			children = (
 				22B03D0B2C6BD3BD003C4FE3 /* TabBarView.swift */,
 				225D86492C6FCCCF00452398 /* CardInfoView.swift */,
-				225D864B2C6FCE9E00452398 /* CardIconView.swift */,
+				225D864B2C6FCE9E00452398 /* CardAuxilioView.swift */,
 				225D864D2C6FDDD000452398 /* CardView.swift */,
 				22DD85162C777BCD008726F3 /* Card.swift */,
 				227581112C823B150058E400 /* FilterView.swift */,
 				2275810F2C8235130058E400 /* FilterButtonView.swift */,
 				227581132C8240780058E400 /* FilterButton.swift */,
+				226BB1982C94AD0400E24719 /* SectionButtonView.swift */,
+				227BEAE22C9A0E010068AFB0 /* Texto.swift */,
+				227BEAE42C9A0E470068AFB0 /* Textos.swift */,
 			);
 			path = Componentes;
+			sourceTree = "<group>";
+		};
+		227BEADF2C9A0D710068AFB0 /* Dados */ = {
+			isa = PBXGroup;
+			children = (
+				227BEAE02C9A0DA90068AFB0 /* Dados.swift */,
+			);
+			path = Dados;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,15 +334,21 @@
 			files = (
 				220069FB2C66A4770054E57F /* ContentView.swift in Sources */,
 				220069F92C66A4770054E57F /* BolsaInformaApp.swift in Sources */,
+				226BB1992C94AD0400E24719 /* SectionButtonView.swift in Sources */,
 				225D864A2C6FCCCF00452398 /* CardInfoView.swift in Sources */,
+				223C05872C8A036B00501299 /* VagaView.swift in Sources */,
 				227581102C8235130058E400 /* FilterButtonView.swift in Sources */,
 				227581122C823B150058E400 /* FilterView.swift in Sources */,
 				225D864E2C6FDDD000452398 /* CardView.swift in Sources */,
 				22006A292C66A9FF0054E57F /* SalvosView.swift in Sources */,
+				227BEAE52C9A0E470068AFB0 /* Textos.swift in Sources */,
 				22B03D0C2C6BD3BD003C4FE3 /* TabBarView.swift in Sources */,
 				22006A252C66A6360054E57F /* VagasView.swift in Sources */,
+				227BEAE32C9A0E010068AFB0 /* Texto.swift in Sources */,
 				22DD85172C777BCD008726F3 /* Card.swift in Sources */,
-				225D864C2C6FCE9E00452398 /* CardIconView.swift in Sources */,
+				225D864C2C6FCE9E00452398 /* CardAuxilioView.swift in Sources */,
+				227BEAE12C9A0DA90068AFB0 /* Dados.swift in Sources */,
+				222420CE2C9DEAF900069BE1 /* SwiftUITestView.swift in Sources */,
 				227581142C8240780058E400 /* FilterButton.swift in Sources */,
 				22006A272C66A8C10054E57F /* EstagiosView.swift in Sources */,
 			);
@@ -482,6 +514,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BolsaInforma/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BX7W7QF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -510,6 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BolsaInforma/Preview Content\"";
+				DEVELOPMENT_TEAM = 45BX7W7QF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

@@ -14,7 +14,6 @@ struct TabBarView: View {
                 .tabItem {
                     Label("Vagas", systemImage: "doc.text.magnifyingglass")
                 }
-                .background(Color.black)
             EstagiosView()
                 .tabItem {
                     Label("Estagios", systemImage:
@@ -26,7 +25,8 @@ struct TabBarView: View {
                 }
         }
         .tint(Color(.tinta))
-        .toolbarBackground(.visible, for: .navigationBar)
+        //define a cor da tabBar
+//        .toolbarBackground(.visible, for: .navigationBar)
         
     }
 }

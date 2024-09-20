@@ -9,57 +9,69 @@ import SwiftUI
 
 struct FilterView: View {
     
-    @State var filterButtons = [
-        FilterButton(text: "Tudo", isSelected: true),
-        FilterButton(text: "Pesquisa"),
-        FilterButton(text: "Extensão"),
-        FilterButton(text: "Área de Atuação"),
-        FilterButton(text: "Área de Atuação")
-    ]
+    @State var filterButtons: Array<FilterButton>
+    @State var showFilters: Bool = false
+    @State var picked = "ass"
     
     var body: some View {
         VStack (alignment: .trailing){
             HStack{
                 Spacer()
-                Text("Filtros")
-                    .font(.system(size: 15))
-                    .underline()
-                    .foregroundStyle(.tinta)
-                
+                Button{
+                    withAnimation(.easeInOut(duration: 0.3)) {
+                        showFilters.toggle()
+                    }
+                } label: {
+                    Text("Filtros")
+                        .font(.system(size: 15))
+                        .underline()
+                        .foregroundStyle(.tinta)
+                }
             }
-            ScrollView(.horizontal, showsIndicators: false){
-                HStack{
-                
-                    ForEach(filterButtons){ button in
-//                        FilterButtonView(filterButton: button)
-//                            .onTapGesture {
-//                                for element in filterButtons {
-//                                    element.setIsSelect(isSelected: false)
-//                                }
-//                                button.setIsSelect(isSelected: true)
-//
-//                            }
-                        Button{
-                            for element in filterButtons {
-                                element.setIsSelect(isSelected: false)
-                            }
-                            button.setIsSelect(isSelected: true)
-                        }
-                        label: {
-                            FilterButtonView(filterButton: button)
+            if showFilters {
+                ScrollView(.horizontal, showsIndicators: false){
+                    LazyHGrid(rows:
+                                [GridItem(.adaptive(minimum: 300))]){
+                        ForEach(filterButtons){ button in
+                                FilterButtonView(filterButton: button)
+                                    .onTapGesture {
+                                        if (button.text == "Tudo")   {
+                                            for element in filterButtons {
+                                                element.setIsSelect(isSelected: false)
+                                            }
+                                            button.setIsSelect(isSelected: true)
+                                        }
+                                        else {
+                                            filterButtons[0].setIsSelect(isSelected: false)
+                                            
+                                            
+                                            if (button.isSelected){
+                                                button.setIsSelect(isSelected: false)
+                                                
+                                            } else {
+                                                button.setIsSelect(isSelected: true)
+                                            }
+                                        }
+                                        
+                                    }
                         }
                     }
                 }
-                    Spacer()
-                }
-                
+                .transition(.move(edge: .trailing))
             }
-            .frame(height: 60)
         }
+        .frame(height: showFilters ? 65 : 18)
+    }
 
         
 }
 
 #Preview {
-    FilterView()
+    FilterView(filterButtons: [
+        FilterButton(text: "Tudo", isSelected: true),
+        FilterButton(text: "Tipo"),
+        FilterButton(text: "Área de Atuação"),
+        FilterButton(text: "Escolaridade")
+        
+    ])
 }
