@@ -129,4 +129,5 @@ struct VagasView: View {
 
 #Preview {
     VagasView()
+        .tint(Color.tinta)
 }
