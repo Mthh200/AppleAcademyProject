@@ -9,7 +9,18 @@ struct CardInfoView: View {
     
     
     let lista: Textos
+    var image: Image
     
+    init(lista: Textos) {
+        self.lista = lista
+        
+        switch lista.nome {
+        case "Extensão":
+            image = Image("extencao")
+        default:
+            image = Image(systemName: "pencil")
+        }
+    }
     
     var body: some View {
         ZStack(alignment: .topLeading) {
@@ -23,8 +34,11 @@ struct CardInfoView: View {
                         RoundedRectangle(cornerRadius: 12)
                             .strokeBorder(Color.tinta)
                             .frame(width: 53, height: 53)
-                        Image(systemName: "pencil.circle")
-                        
+                        image
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 53, height: 53)
+
                     }
                     
                     Text(lista.nome)

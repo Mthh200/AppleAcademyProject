@@ -10,22 +10,22 @@ import SwiftUI
 struct CardAuxilioView: View {
     
     var card: Card
-    var image: String = "eyeglasses"
+    var image: Image
     
     init(card: Card) {
         self.card = card
         
         switch card.arg1{
         case "Auxílio Óculos":
-            image = "eyeglasses"
+            image = Image(systemName: "eyeglasses")
         case "Auxílio Transporte":
-            image = "car.fill"
+            image = Image(systemName: "car.fill")
         case "Auxílio Formação":
-            image = "Auxílio Formação"
+            image = Image("Auxílio Formação")
         case "Auxílio Moradia":
-            image = "house"
+            image = Image(systemName: "house")
         default:
-            image = "hjb"
+            image = Image(systemName: "pencil")
         }
     }
     
@@ -43,34 +43,30 @@ struct CardAuxilioView: View {
                 .strokeBorder(Color.tinta, lineWidth: 1)
                 .frame(height: 92)
             
-            HStack{
-                ZStack{
-                    RoundedRectangle(cornerRadius: 12)
-                        .fill(Color.white)
-                        .strokeBorder(Color.tinta, lineWidth: 1)
-                        .frame(width: 55, height: 55)
-                    if (image == "Auxílio Formação"){
-                        Image(image)
+            HStack {
+                Group {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(Color.white)
+                            .strokeBorder(Color.tinta, lineWidth: 1)
+                            .frame(width: 55, height: 55)
+                        image
                             .font(.system(size: 28))
-                    } else{
-                        Image(systemName: image)
-                            .font(.system(size: 28))
-                    }
                         
+                    }
+                    .padding([.top, .leading, .bottom])
                     
-                    
+                    VStack(alignment: .leading) {
+                        Text(card.arg1)
+                            .font(.system(size: 23))
+                        
+                        Text(card.arg3)
+                            .font(.system(size: 14))
+                            .foregroundStyle(Color(.tinta))
+                    }
+                    .padding(.leading, 5.0)
                 }
-                .padding([.top, .leading, .bottom])
-                
-                VStack(alignment: .leading){
-                    Text(card.arg1)
-                        .font(.system(size: 23))
-                    
-                    Text(card.arg3)
-                        .font(.system(size: 14))
-                        .foregroundStyle(Color(.tinta))
-                }
-                .padding(.leading, 5.0)
+                .foregroundColor(.black)
                 
                 Spacer()
                 if (card.isSalvo == true){

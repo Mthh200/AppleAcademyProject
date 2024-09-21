@@ -11,7 +11,8 @@ struct SalvosView: View {
     
     @State var selectionado: Int = 1
     
-    let dados = Dados().dados
+    let dados = Dados()
+    
     var cardsBolsasSalvas = VagasView().cardsBolsas.filter{card in
         if (card.isSalvo == true){
             return true
@@ -59,7 +60,7 @@ struct SalvosView: View {
                         ZStack{
                             VStack {
                                 ForEach(cardsBolsasSalvas){ card in
-                                    if let textos = dados[card.arg1] {
+                                    if let textos = dados.bolsas[card.arg1] {
                                         NavigationLink(destination: VagaView(textos: textos, title: card.arg1)) {
                                             CardView(card: card)
                                         }
