@@ -14,7 +14,7 @@ struct VagasView: View {
     @State var searchText: String = ""
     
     var cardsBolsas = [
-        Card(arg1: "Apple Academy Foundation", arg2: "Extensão", arg3: "Até 12/12 às 12h", isSalvo: false),
+        Card(arg1: "Apple Academy Foundation", arg2: "Extensão", arg3: "Até 12/12 às 12h", isSalvo: true),
         Card(arg1: "Mentoria Huawei", arg2: "Extensão", arg3: "Até 12/12 às 12h", isSalvo: false),
         Card(arg1: "PIBIC", arg2: "Pesquisa", arg3: "Até 12/12 às 12h", isSalvo: false)
     ]
